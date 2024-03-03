@@ -1,0 +1,29 @@
+body {
+  background-image: url("../assets/padrao-de-camuflagem-digital-de-design-plano.jpg");
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  background-image: linear-gradient(to bottom right, #556b2f, #808000);
+  width: 30vw;
+  height: 40rem;
+}
+.profile-title {
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  color: #a9a9a9;
+  -webkit-text-stroke: #000;
+  -webkit-text-stroke-width: 1px;
+}
+
+.profile-img {
+  width: 12rem;
+  border-radius: 1rem;
+}
