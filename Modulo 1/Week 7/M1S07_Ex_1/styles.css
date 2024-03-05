@@ -1,0 +1,27 @@
+/* Estilos para a Sidebar */
+.sidebar {
+  background-color: #1a1a1a; /* Cor da Sidebar */
+  width: 20%; /* Largura da Sidebar */
+  float: left;
+}
+
+/* Estilos para o Header */
+.header {
+  background-color: #333; /* Cor do Header */
+  height: 100px; /* Altura do Header */
+  width: 100%; /* Largura total */
+}
+
+/* Estilos para o Content */
+.content {
+  background-color: #f0f0f0; /* Cor do Content */
+  width: 80%; /* Largura do Content */
+  float: left;
+}
+
+/* Clearfix para evitar problemas de layout */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}

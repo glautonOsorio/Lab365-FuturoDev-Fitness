@@ -1,0 +1,28 @@
+/* Estilos para o Grid Container */
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px auto; /* Define duas colunas: uma para a Sidebar e outra para o Header e Content */
+  grid-template-rows: auto; /* A altura das linhas é determinada automaticamente */
+  grid-template-areas:
+    "sidebar header"
+    "sidebar content"; /* Define as áreas do grid */
+  height: 100vh; /* Ocupa a altura total da viewport */
+}
+
+/* Estilos para a Sidebar */
+.sidebar {
+  grid-area: sidebar; /* Define a área do grid ocupada pela Sidebar */
+  background-color: #1a1a1a; /* Cor da Sidebar */
+}
+
+/* Estilos para o Header */
+.header {
+  grid-area: header; /* Define a área do grid ocupada pelo Header */
+  background-color: #333; /* Cor do Header */
+}
+
+/* Estilos para o Content */
+.content {
+  grid-area: content; /* Define a área do grid ocupada pelo Content */
+  background-color: #f0f0f0; /* Cor do Content */
+}
