@@ -1,9 +1,11 @@
 const Sequelize = require("sequelize");
 const configDB = require("./config/database");
 const Cursos = require("./models/Cursos.model");
+const Professor = require("./models/Professor.model");
 
 const models = {
   Cursos,
+  Professor,
 };
 
 const connection = new Sequelize(configDB);
